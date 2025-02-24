@@ -24,6 +24,8 @@ CSS: For styling the application.
 
 Add sound effects for each choice.
 
-## Preview
+## Preview and Link
 
 ![screenshot](/public/img/preview-rock-paper-scissors.png)
+
+To the Game: [Runway to the Game...](https://rockpaperscissors-123.netlify.app/)
