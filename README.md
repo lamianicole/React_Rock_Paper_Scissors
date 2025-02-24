@@ -24,9 +24,6 @@ CSS: For styling the application.
 
 Add sound effects for each choice.
 
-Implement multiplayer functionality.
-
-## Preview and Link
+## Preview
 
 ![screenshot](/public/img/preview-rock-paper-scissors.png)
-[Enjoy the Game here](rockpaperscissors-123.netlify.app)
