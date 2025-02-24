@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# Rock, Paper, Scissors... but make it Fashion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a playful take on the classic Rock, Paper, Scissors game, with a fashionable twist. The game is developed using React, TypeScript, and CSS, featuring unique icons for the choices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Choice and Computer Choice: Players can select one of the icons (💎, 🪭, 👠) and compete against a randomly selected computer choice.
 
-## Expanding the ESLint configuration
+Game Logic: Determines the winner based on the classic Rock, Paper, Scissors rules, but with a stylish twist.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Result Display: Shows the outcome of each round, indicating whether it's a win, loss, or tie.
 
-- Configure the top-level `parserOptions` property like this:
+Reset Functionality: Allows players to restart the game and play again.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Technologies Used
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+React: A library for building user interfaces.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+CSS: For styling the application.
+
+## Future Enhancements
+
+Add sound effects for each choice.
+
+Implement multiplayer functionality.
+
+## Preview and Link
+
+![screenshot](/public/img/preview-rock-paper-scissors.png)
+[Enjoy the Game here](rockpaperscissors-123.netlify.app)
